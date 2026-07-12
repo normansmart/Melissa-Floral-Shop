@@ -1,14 +1,11 @@
-
-
-
 function Homepage() {
   return (
     <div className="Homepage">
       <header className="Homepage-header">
-        <h1>Bonjourno</h1>
+        <h1>Flores Con Fuego.</h1>
       </header>
     </div>
-  )
+  );
 }
 
-export default Homepage
+export default Homepage;
