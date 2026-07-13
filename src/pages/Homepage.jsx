@@ -1,4 +1,5 @@
 import "./Homepage.css";
+import image from "../images/image.png";
 
 function Homepage() {
   return (
@@ -13,13 +14,17 @@ function Homepage() {
               desert of Las Vegas.
             </p>
           </div>
-          <div className="image-container"></div>
+          <div className="image-container">
+            <img src={image} alt="placeholder" />
+          </div>
         </div>
       </header>
       {/*HERO*/}
       <section>
         <div className="section-container">
-          <div className="image-container"></div>
+          <div className="image-container">
+            <img src={image} alt="placeholder" />
+          </div>
           <div className="hero-container">
             <h2>From Peru to the desert.</h2>
             <p>
