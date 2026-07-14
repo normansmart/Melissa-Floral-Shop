@@ -1,5 +1,11 @@
 import "./Homepage.css";
 import image from "../images/image.png";
+import bouquet from "../images/bouquet.png";
+import nature from "../images/nature.png";
+import pawnshop from "../images/pawn-shop.png";
+import heart from "../images/heart.png";
+import flowerpack from "../images/flower-pack.jpg";
+import flowerstand from "../images/flowers-stand.jpg";
 
 function Homepage() {
   return (
@@ -15,7 +21,7 @@ function Homepage() {
             </p>
           </div>
           <div className="image-container">
-            <img src={image} alt="placeholder" />
+            <img src={flowerpack} alt="placeholder" />
           </div>
         </div>
       </header>
@@ -23,7 +29,7 @@ function Homepage() {
       <section>
         <div className="section-container">
           <div className="image-container">
-            <img src={image} alt="placeholder" />
+            <img src={flowerstand} alt="placeholder" />
           </div>
           <div className="hero-container">
             <h2>From Peru to the desert.</h2>
@@ -55,18 +61,30 @@ function Homepage() {
         </p>
         <div className="card-container">
           <div className="card">
+            <div>
+              <img src={heart} alt="heart" />
+            </div>
             <h3>Luxury Weddings</h3>
             <p>Full-scale floral storytelling</p>
           </div>
           <div className="card">
+            <div>
+              <img src={pawnshop} alt="building with jewels" />
+            </div>
             <h3>High- End Events</h3>
             <p>Corporate & Celebrity installations</p>
           </div>
           <div className="card">
+            <div>
+              <img src={bouquet} alt="bouquet of flowers" />
+            </div>
             <h3>Bespoke Bouquets</h3>
             <p>Custom designed arrangements</p>
           </div>
           <div className="card">
+            <div>
+              <img src={nature} alt="arrangement of flowers" />
+            </div>
             <h3>Floral Styling & Creative Direction</h3>
             <p> For photoshoots and brands</p>
           </div>
