@@ -31,13 +31,17 @@ function Homepage() {
               Born in the heart of Peru, now designing in the heart of Las
               Vegas.
             </p>
+
             <p>
               Blending Andean blooms with bold, modern elegance, I bring passion
               and artistry to the desert’s most exquisite events.
             </p>
-            <blockquote>
-              &quot;Flowers should feel like poetry, not decoration.&quot;
-            </blockquote>
+
+            <div className="flower-quote">
+              <blockquote>
+                &quot;Flowers should feel like poetry, not decoration.&quot;
+              </blockquote>
+            </div>
           </div>
         </div>
         <h3>Signature Creations</h3>
@@ -67,11 +71,15 @@ function Homepage() {
             <p> For photoshoots and brands</p>
           </div>
         </div>
-
-        <blockquote>
-          &quot;Her Arrangements transformed our wedding into pure art.&quot;
-          <span>John and Sarah</span>
-        </blockquote>
+        <div className="quote-container">
+          <blockquote>
+            <p>
+              &quot;Her Arrangements transformed our wedding into pure
+              art.&quot;
+            </p>
+            <p>John and Sarah</p>
+          </blockquote>
+        </div>
       </section>
       {/*FOOTER*/}
       <footer>

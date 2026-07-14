@@ -8,6 +8,8 @@ h2,
 h3 {
   font-family: "Beau Rivage";
   color: #a3472a;
+  margin: 10px;
+  padding: 10px;
 }
 
 h1 {
@@ -22,22 +24,26 @@ h3 {
   font-size: 1.8rem;
 }
 
-/*test border*/
-header,
-section {
-  border: 2px, solid, blue;
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #212121;
+  margin: 10px;
 }
 
 .card-section {
-  background-color: #e8d8c3;
+  background-color: #dad3c1;
 }
 
 .card-container {
+  margin: 10px;
   display: flex;
   gap: 10px;
+  height: 300px;
 }
 
 .card {
+  background-color: #e8d8c3;
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -62,4 +68,43 @@ section {
 .hero-container,
 .h1-container {
   width: 50%;
+}
+
+.h1-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-container p {
+  text-align: left;
+}
+
+.flower-quote {
+  font-family: "Allura";
+  font-size: 1.8rem;
+  border-top: 2px solid #a3472a;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f4ef;
+  height: 200px;
+}
+
+.quote-container p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.8rem;
+  padding: 10px;
+  font-weight: 600;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
