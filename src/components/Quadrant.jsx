@@ -1,7 +1,7 @@
 import "../css/home/Home-quadrant.css";
 
-import flowerpack from "../images/flower-pack.jpg";
-import flowerstand from "../images/flowers-stand.jpg";
+import flowerpack from "../images/home/quadrant/flower-pack.jpg";
+import flowerstand from "../images/home/quadrant/flowers-stand.jpg";
 
 function Quadrant() {
   return (
