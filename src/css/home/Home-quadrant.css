@@ -1,0 +1,44 @@
+/*CONTAINERS CONFIGS*/
+.header-container,
+.section-container {
+  display: flex;
+}
+
+.image-container,
+.hero-container,
+.h1-container {
+  width: 100%;
+}
+
+/*H1 and LUXURY FLORAL SENTENCE*/
+.h1-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*HERO PARAGRAPH*/
+.hero-container p {
+  text-align: left;
+}
+
+/*POETIC QUADRANT QUOTE*/
+.flower-quote {
+  font-family: "Allura";
+  font-size: 1.8rem;
+  border-top: 2px solid #a3472a;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+/*PHONE AND TABLETS*/
+@media (max-width: 768px) {
+  .header-container,
+  .section-container {
+    display: block;
+  }
+
+  .section-container img {
+    display: none;
+  }
+}

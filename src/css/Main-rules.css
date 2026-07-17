@@ -1,0 +1,51 @@
+body {
+  background-color: #cfc5bb;
+  color: black;
+  margin-top: 70px;
+}
+/*H1 H2 H3 P*/
+h1,
+h2,
+h3 {
+  font-family: "Beau Rivage";
+  color: #a3472a;
+  margin: 10px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 00;
+  color: #212121;
+  margin: 10px;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #681900;
+}
+
+/*ALL IMAGES*/
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+}

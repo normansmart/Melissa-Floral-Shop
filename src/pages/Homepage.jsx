@@ -1,4 +1,9 @@
 import "../css/Homepage.css";
+import "../css/home/Home-cards.css";
+import "../css/home/Home-quadrant.css";
+import "../css/home/Home-review.css";
+import "../css/Address.css";
+
 import image from "../images/image.png";
 import bouquet from "../images/bouquet.png";
 import nature from "../images/nature.png";
@@ -8,15 +13,13 @@ import flowerpack from "../images/flower-pack.jpg";
 import flowerstand from "../images/flowers-stand.jpg";
 
 import Navigation from "../components/Navigation";
+import Header from "../components/Header";
 
 function Homepage() {
   return (
     <div className="Homepage">
       {/*HEADER*/}
       <header className="Homepage-header">
-
-      
-
         <div className="header-container">
           <div className="h1-container">
             <h1>Flores Con Fuego.</h1>
@@ -30,6 +33,7 @@ function Homepage() {
           </div>
         </div>
       </header>
+
       {/*HERO*/}
       <section>
         <div className="section-container">

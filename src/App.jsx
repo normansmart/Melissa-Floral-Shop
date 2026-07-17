@@ -1,16 +1,16 @@
 import { useState } from "react";
-import { BrowserRouter, Routes, Route, Link } from 'react-router';
+import { BrowserRouter, Routes, Route, Link } from "react-router";
 
 import Homepage from "./pages/Homepage";
 import Navigation from "./components/Navigation";
 import "./App.css";
+import "./css/Main-rules.css";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-
       <BrowserRouter>
         <Navigation />
 
@@ -22,9 +22,6 @@ function App() {
           <Route path="/Contact" element={<> </>} />
         </Routes>
       </BrowserRouter>
-
-
-      
     </>
   );
 }

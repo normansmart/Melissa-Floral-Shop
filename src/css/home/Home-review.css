@@ -1,0 +1,22 @@
+/*REVIEW FROM JOHN AND SARAH*/
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f4ef;
+  height: 200px;
+}
+
+.quote-container p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.8rem;
+  padding: 10px;
+  font-weight: 600;
+}
+
+/*PHONE AND TABLETS*/
+@media (max-width: 768px) {
+  .quote-container p {
+    font-size: 1.4rem;
+  }
+}
