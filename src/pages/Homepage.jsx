@@ -1,4 +1,4 @@
-import "./Homepage.css";
+import "../css/Homepage.css";
 import image from "../images/image.png";
 import bouquet from "../images/bouquet.png";
 import nature from "../images/nature.png";
@@ -7,11 +7,16 @@ import heart from "../images/heart.png";
 import flowerpack from "../images/flower-pack.jpg";
 import flowerstand from "../images/flowers-stand.jpg";
 
+import Navigation from "../components/Navigation";
+
 function Homepage() {
   return (
     <div className="Homepage">
       {/*HEADER*/}
       <header className="Homepage-header">
+
+      
+
         <div className="header-container">
           <div className="h1-container">
             <h1>Flores Con Fuego.</h1>

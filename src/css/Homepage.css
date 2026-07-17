@@ -4,9 +4,10 @@
 
 /*BODY*/
 body {
+  
   background-color: #cfc5bb;
   color: black;
-}
+  margin-top: 70px;
 /*H1 H2 H3 P*/
 h1,
 h2,
@@ -31,7 +32,7 @@ h3 {
 
 p {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 00;
   color: #212121;
   margin: 10px;
 }
@@ -47,6 +48,8 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
+
 
 /*CARDS*/
 .card-section {
@@ -174,4 +177,5 @@ img {
   .section-container img {
     display: none;
   }
+}
 }
