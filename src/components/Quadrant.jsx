@@ -1,8 +1,10 @@
 import "../css/home/Home-quadrant.css";
+import flowerpack from "../images/flower-pack.jpg";
+import flowerstand from "../images/flowers-stand.jpg";
 
-function Header() {
+function Quadrant() {
   return (
-    <div className="Header">
+    <div className="Quadrant">
       {/*HEADER*/}
       <header className="Homepage-header">
         <div className="header-container">
@@ -50,4 +52,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Quadrant;
