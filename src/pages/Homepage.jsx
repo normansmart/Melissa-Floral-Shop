@@ -7,10 +7,11 @@ import Footer from "../components/Footer";
 function Homepage() {
   return (
     <div className="Homepage">
-      {/*The two sections of writing and the images*/}
+      {/*THE TWO SECTIONS OF WRITING PLUS THE IMAGES*/}
       <Quadrant />
 
       {/*SIGNATURE CREATIONS*/}
+      {/*UNDERNEATH THIS IS THE BUTTONS*/}
       <h3>Signature Creations</h3>
 
       {/*CARDS AND H2 + P*/}

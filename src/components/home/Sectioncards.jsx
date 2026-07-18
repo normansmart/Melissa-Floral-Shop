@@ -12,6 +12,7 @@ function Sectioncards() {
     <div className="Sectioncards">
       {/*CARD SECTION*/}
       <section className="card-section">
+        {/*H2 + PARAGRAPH*/}
         <h2>Rooted in Peruvian Heritage</h2>
         <p>
           inspired by Andean traditions, vibrant textiles, and the spirit of
@@ -56,9 +57,7 @@ function Sectioncards() {
             <p> For photoshoots and brands</p>
           </div>
         </div>
-        {/*Review*/}
       </section>
-      {/* <Review /> */}
     </div>
   );
 }
