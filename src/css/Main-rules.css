@@ -1,5 +1,5 @@
 body {
-  background-color: #cfc5bb;
+  background-color: #b7a6b5;
   color: black;
   margin-top: 70px;
 }
@@ -8,7 +8,7 @@ h1,
 h2,
 h3 {
   font-family: "Beau Rivage";
-  color: #a3472a;
+  color: #b924b4;
   margin: 10px;
   padding: 10px;
 }
@@ -35,7 +35,7 @@ p {
 
 /*FOOTER*/
 footer {
-  background-color: #681900;
+  background-color: #ac84a7;
 }
 
 /*ALL IMAGES*/

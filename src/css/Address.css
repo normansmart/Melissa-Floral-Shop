@@ -13,9 +13,10 @@
 
 .address a,
 .address p {
-  color: #cfc5bb;
+  color: #212121;
   text-decoration: none;
   margin: 0;
+  font-family: "inter";
 }
 
 /*PHONE AND TABLETS(S)*/
