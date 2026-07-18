@@ -1,10 +1,10 @@
-import "../css/home/Home-cards.css";
-import "../css/home/Home-review.css";
+import "../../css/home/Home-cards.css";
+import "../../css/home/Home-review.css";
 
-import bouquet from "../images/home/cards/bouquet.png";
-import nature from "../images/home/cards/nature.png";
-import pawnshop from "../images/home/cards/pawn-shop.png";
-import heart from "../images/home/cards/heart.png";
+import bouquet from "../../images/home/cards/bouquet.png";
+import nature from "../../images/home/cards/nature.png";
+import pawnshop from "../../images/home/cards/pawn-shop.png";
+import heart from "../../images/home/cards/heart.png";
 
 function Sectioncards() {
   return (

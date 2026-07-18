@@ -1,6 +1,6 @@
 import Navigation from "../components/Navigation";
-import Quadrant from "../components/Quadrant";
-import Sectioncards from "../components/Sectioncards";
+import Quadrant from "../components/home/Quadrant";
+import Sectioncards from "../components/home/Sectioncards";
 import Footer from "../components/Footer";
 
 function Homepage() {
