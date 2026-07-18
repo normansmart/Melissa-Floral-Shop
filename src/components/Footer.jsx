@@ -1,3 +1,4 @@
+/*CSS*/
 import "../css/Address.css";
 
 function Footer() {
@@ -6,7 +7,6 @@ function Footer() {
       {/*FOOTER*/}
       <footer>
         {/*ADDRESS*/}
-
         <address>
           <div className="address-container">
             <div className="address">

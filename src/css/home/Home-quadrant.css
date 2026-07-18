@@ -1,16 +1,17 @@
 /*CONTAINERS CONFIGS*/
+/*THIS IS WHAT MAKES THOSE FOUR PARTS OF THE QUADRANT*/
 .header-container,
 .section-container {
   display: flex;
 }
 
-.image-container,
+.image-container/*x2*/,
 .hero-container,
 .h1-container {
   width: 100%;
 }
 
-/*H1 and LUXURY FLORAL SENTENCE*/
+/*H1 + LUXURY FLORAL SENTENCE*/
 .h1-container {
   display: flex;
   flex-direction: column;
